@@ -79,7 +79,7 @@ def generate_negative_data(data, number_samples):  # pylint: disable=redefined-o
     x_increase = (random.random() - 0.5)
     y_increase = (random.random() - 0.5)
     z_increase = (random.random() - 0.5)
-    for j in range(128):
+    for j in range(200):
       dic[DATA_NAME].append([
           start_x + j * x_increase + (random.random() - 0.5) * 0.6,
           start_y + j * y_increase + (random.random() - 0.5) * 0.6,
@@ -94,7 +94,7 @@ def generate_negative_data(data, number_samples):  # pylint: disable=redefined-o
       dic = {DATA_NAME: [], LABEL_NAME: "negative", "name": "negative7"}
     else:
       dic = {DATA_NAME: [], LABEL_NAME: "negative", "name": "negative6"}
-    for j in range(128):
+    for j in range(200):
       dic[DATA_NAME].append([(random.random() - 0.5) * 50,
                              (random.random() - 0.5) * 50,
                              (random.random() - 0.5) * 50])
@@ -110,7 +110,7 @@ def generate_negative_data(data, number_samples):  # pylint: disable=redefined-o
     start_x = (random.random() - 0.5) * 2
     start_y = (random.random() - 0.5) * 2
     start_z = (random.random() - 0.5) * 2
-    for j in range(128):
+    for j in range(200):
       dic[DATA_NAME].append([
           start_x + (random.random() - 0.5) * 0.4,
           start_y + (random.random() - 0.5) * 0.4,

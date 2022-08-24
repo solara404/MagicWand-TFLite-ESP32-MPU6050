@@ -36,15 +36,9 @@ import math
 
 LABEL_NAME = "gesture"
 DATA_NAME = "accel_ms2_xyz"
-folders = ["wing", "ring", "slope"]
+folders = ["fog","nonfog"]
 names = [
-    "stefan",
-    "patrick",
-    "justin",
-    "yeongmi",
-    "arthur",
-    "kai",
-    "nico"
+    "kevin"
 ]
 
 
